@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 -- Теперь лучше переведено и доработано!
+=======
+>>>>>>> develop
 TEAM_CITIZEN = AddExtraTeam("Прибывший", {
 	color = Color(20, 150, 20, 255),
 	model = { 
@@ -28,7 +31,12 @@ TEAM_CITIZEN = AddExtraTeam("Прибывший", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 0,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -65,8 +73,13 @@ TEAM_VIPCITIZEN = AddExtraTeam("Гражданин", {
 	hasLicense = false,
 	candemote = false,
 	mayorCanSetSalary = false,
-	xp = 15,
+	xp = 25,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -93,7 +106,11 @@ TEAM_KONTRA = AddExtraTeam("Поставщик", {
 		"models/Humans/Group01/Male_08.mdl",
 		"models/Humans/Group01/Male_09.mdl"
 	},
+<<<<<<< HEAD
 	description = [[Гражданин, наладивший контакт с бандитами вне города.]],
+=======
+	description = [[Полностью зарегистрированный человек в городе.]],
+>>>>>>> develop
 	weapons = {"weapon_physcannon", "gmod_tool", "weapon_physgun", "keys", "pocket"},
 	command = "kontra",
 	max = 1,
@@ -104,7 +121,12 @@ TEAM_KONTRA = AddExtraTeam("Поставщик", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 15,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -131,9 +153,18 @@ TEAM_VIPPLUSCITIZEN = AddExtraTeam("Доверенный Гражданин", {
 		"models/Humans/Group01/Male_08.mdl",
 		"models/Humans/Group01/Male_09.mdl"
 	},
+<<<<<<< HEAD
 	description = [[Гражданин, доказавший свою верность Альянсу.
 	
 	Требуется XP: 75]],
+=======
+	description = [[The lowest class of Universal Union society. 
+	They are forced to follow the UU’s dictatorship with absolute 
+	obedience, or face punishments and even execution. The UU keeps
+	citizens weak and malnourished, and it is all they can do to
+	try and survive. However, some brave citizens dare to 
+	stand against the UU…]],
+>>>>>>> develop
 	weapons = {"weapon_physcannon", "gmod_tool", "weapon_physgun", "keys", "pocket"},
 	command = "vippluscitizen",
 	max = 0,
@@ -144,7 +175,12 @@ TEAM_VIPPLUSCITIZEN = AddExtraTeam("Доверенный Гражданин", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 75,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -186,7 +222,12 @@ TEAM_PREMIUMCITIZEN = AddExtraTeam("Почетный Гражданин", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 250,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -228,7 +269,12 @@ TEAM_LOYAL = AddExtraTeam("Лоялист", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 500,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -271,7 +317,12 @@ TEAM_VIPLOYAL = AddExtraTeam("Почетный Лоялист", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 1750,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -314,7 +365,12 @@ TEAM_PREMIUMLOYAL = AddExtraTeam("Смотрящий Лоялист", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 2500,
+<<<<<<< HEAD
 	PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+=======
+
+                PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
+>>>>>>> develop
 	customCheck = function(ply)
 	if SERVER then
 		ply:SetDarkRPVar("citopt", 1)
@@ -341,9 +397,20 @@ TEAM_CWU = AddExtraTeam("ГСР", {
 		"models/Humans/Group02/Male_08.mdl",
 		"models/Humans/Group01/Male_09.mdl"
 	},
+<<<<<<< HEAD
 	description = [[Гражданин, работающий во благо Альянса.
 
 	Требуется XP: 15]],
+=======
+	description = [[A citizen who has been recruited or signed up
+	to work for the UU. CWU receive many benefits, with access to
+	better food and medical supplies. Most CWU operate business in 
+	the city, selling resources to other citizens in return for 
+	tokens, and some may be hired by the City Administrator to work
+	for him. Most CWU believe that the goal of the Combine is good
+	and do their best to support it.
+XP Requirement: 15]],
+>>>>>>> develop
 	weapons = {"weapon_physcannon", "gmod_tool", "weapon_physgun", "keys", "pocket"},
 	command = "cwu",
 	max = 0,
@@ -510,7 +577,11 @@ TEAM_REBEL = AddExtraTeam("Беженец", {
 	candemote = false,
 	mayorCanSetSalary = false,
 	xp = 0,
+<<<<<<< HEAD
 	noinmenu = true, -- не видно
+=======
+	noinmenu = true,
+>>>>>>> develop
     PlayerLoadout = function(ply) ply:SetArmor(0) return true end,
 	customCheck = function(ply)
 	if SERVER then
@@ -537,7 +608,11 @@ TEAM_REBELCP = AddExtraTeam("Предатель Альянса", {
 	hasLicense = false,
 	candemote = false,
 	mayorCanSetSalary = false,
+<<<<<<< HEAD
 	noinmenu = true, -- не видно
+=======
+	noinmenu = true,
+>>>>>>> develop
 	PlayerDeath = function(ply, weapon, killer)
 		ply:ChangeTeam(GAMEMODE.DefaultTeam, true)
 	end
